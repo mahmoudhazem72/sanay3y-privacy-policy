@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية | تطبيق صنايعي (Sanay3y Privacy Policy)</title>
+    <style>
+        :root {
+            --primary: #1A365D;
+            --primary-light: #2B6CB0;
+            --accent: #D69E2E;
+            --text-dark: #2D3748;
+            --text-muted: #718096;
+            --bg-light: #F7FAFC;
+            --white: #FFFFFF;
+            --border: #E2E8F0;
+            --badge-confirmed: #22543D;
+            --badge-confirmed-bg: #C6F6D5;
+            --badge-pending: #744210;
+            --badge-pending-bg: #FEFCBF;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.7;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .lang-switch {
+            margin-top: 20px;
+            display: inline-flex;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 6px 12px;
+            border-radius: 20px;
+        }
+
+        .lang-switch a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .lang-switch a:hover, .lang-switch a.active {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 1.35rem;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        h3 {
+            color: var(--text-dark);
+            font-size: 1.1rem;
+            margin: 18px 0 8px 0;
+        }
+
+        p, ul, ol {
+            margin-bottom: 14px;
+            font-size: 0.98rem;
+        }
+
+        ul, ol {
+            padding-right: 25px;
+        }
+
+        [dir="ltr"] ul, [dir="ltr"] ol {
+            padding-right: 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .badge-confirmed {
+            background-color: var(--badge-confirmed-bg);
+            color: var(--badge-confirmed- emancipation);
+            color: var(--badge-confirmed);
+        }
+
+        .badge-pending {
+            background-color: var(--badge-pending-bg);
+            color: var(--badge-pending);
+        }
+
+        .notice-box {
+            background: #EBF8FF;
+            border-right: 4px solid var(--primary-light);
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        [dir="ltr"] .notice-box {
+            border-right: none;
+            border-left: 4px solid var(--primary-light);
+        }
+
+        .warning-box {
+            background: #FFFAF0;
+            border-right: 4px solid var(--accent);
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        [dir="ltr"] .warning-box {
+            border-right: none;
+            border-left: 4px solid var(--accent);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.92rem;
+        }
+
+        table th, table td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: right;
+        }
+
+        [dir="ltr"] table th, [dir="ltr"] table td {
+            text-align: left;
+        }
+
+        table th {
+            background-color: #EDF2F7;
+            color: var(--primary);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+            background: var(--white);
+        }
+
+        .placeholder-tag {
+            color: #C53030;
+            font-weight: bold;
+            background: #FFF5F5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            border: 1px dashed #FEB2B2;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>تطبيق صنايعي — سياسة الخصوصية</h1>
+    <p>Sanay3y Mobile Application — Privacy Policy</p>
+    <div class="lang-switch">
+        <a href="#arabic" class="active">العربية</a>
+        <a href="#english">English</a>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- ================================================================= -->
+    <!-- ARABIC SECTION -->
+    <!-- ================================================================= -->
+    <section id="arabic">
+        <div class="notice-box">
+            <strong>تاريخ آخر تحديث:</strong> 13 نوفمبر 2026<br>
+            <strong>نطاق التطبيق:</strong> تطبيق صنايعي للهواتف الذكية (Android) ومرحلة الاختبار المغلق (Google Play Closed Testing).
+        </div>
+
+        <div class="card">
+            <h2>1. مقدمة وهوية مسؤول البيانات</h2>
+            <p>
+                نرحب بكم في تطبيق <strong>صنايعي (Sanay3y)</strong>. يهدف تطبيقنا إلى تقديم منصة وسيطة آمنة تربط بين العملاء الباحثين عن خدمات الصيانة المنزلية والحرفية (مثل السباكة، النجارة، الكهرباء وغيرها) وبين الحرفيين والصنايعية المؤهلين والمعتمدين في نطاق جغرافي محدد.
+            </p>
+            <p>
+                <strong>بيانات مسؤول التشغيل والدعم:</strong><br>
+                اسم المطور العام على Google Play: <strong>Flutter Team</strong><br>
+                صاحب الحساب القانوني / المشغّل: <strong>احمد بدوي حسنى محمود (Ahmed Badawy Hosny Mahmoud)</strong> — حساب مطور شخصي (Personal Developer Account)<br>
+                موقع المطور الإلكتروني: <a href="https://www.raizero.com/" target="_blank" rel="noopener noreferrer">https://www.raizero.com/</a><br>
+                البريد الإلكتروني المخصص للدعم والخصوصية: <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a><br>
+                قنوات الدعم الفني المباشرة داخل التطبيق: عبر قسم "الشكاوى والدعم الفني" (اتصال هاتفي مباشر وواتساب رسمي).
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. البيانات التي يتم جمعها في التطبيق</h2>
+            <p>نقوم بجمع الحد الأدنى والضروري فقط من البيانات لتشغيل الخدمة وتقديمها بكفاءة وأمان:</p>
+
+            <h3>أ. بيانات إنشاء الحساب وتسجيل الدخول</h3>
+            <ul>
+                <li><strong>الاسم الكامل (Full Name):</strong> لتعريف صاحب الحساب في النظام والتواصل بين العميل والصنايعي.</li>
+                <li><strong>رقم الهاتف المحمول (Phone Number):</strong> رقم مصري يبدأ بـ (01)، يُستخدم لتنسيق الخدمة والتواصل بعد تأكيد الشراء.</li>
+                <li><strong>البريد الإلكتروني وكلمة المرور (Email & Password):</strong> لإنشاء الحساب ومصادقة الدخول الآمنة بواسطة Supabase Auth. لا نطلع مطلقاً على كلمات المرور حيث يتم حفظها مشفرة رقمياً (Hashed).</li>
+                <li><strong>نوع الحساب (Role):</strong> عميل (Customer) أو صنايعي (Worker).</li>
+            </ul>
+
+            <h3>ب. بيانات إضافية خاصة بالصنايعية</h3>
+            <ul>
+                <li><strong>فئة الصيانة (Trade Category):</strong> التخصص المهني المختار (مثل سباكة، كهرباء، نجارة) لعرض الطلبات المطابقة للتخصص فقط.</li>
+                <li><strong>حالة الاعتماد (Approval Status):</strong> حالة فحص ومراجعة الحساب من قبل الإدارة (قيد المراجعة، معتمد، موقوف).</li>
+                <li><strong>رصيد المحفظة والعملات (Coins & Wallet):</strong> رصيد النقاط الافتراضية داخل التطبيق وسجل المعاملات المستخدم لفتح تفاصيل طلبات الخدمة.</li>
+            </ul>
+
+            <h3>ج. بيانات طلب الخدمة وتحديد الموقع (Location Data)</h3>
+            <ul>
+                <li><strong>وصف المشكلة:</strong> تفاصيل العطل أو أعمال الصيانة المطلوب إنجازها.</li>
+                <li><strong>العنوان التفصيلي:</strong> النص التوضيحي للعنوان والشارع والعلامة المميزة.</li>
+                <li><strong>إحداثيات الموقع الجغرافي (GPS Coordinates):</strong> خط الطول ودائرة العرض لموقع طلب الخدمة.</li>
+                <li>
+                    <span class="badge badge-confirmed">مؤكد برمجياً</span>
+                    <strong>آلية جمع الموقع:</strong> يتم جمع إحداثيات الـ GPS <strong>فقط أثناء استخدام التطبيق في الواجهة (Foreground Only)</strong> عند قيام العميل بالضغط صراحةً على زر "تأكيد موقعي الحالي عبر الـ GPS"، أو عند قيام الصنايعي بالبحث عن الطلبات القريبة أو شراء الطلب. التطبيق <strong>لا يطلب ولا يستخدم إذن الموقع في الخلفية (ACCESS_BACKGROUND_LOCATION)</strong> إطلاقاً ولا يتتبع المستخدم أثناء إغلاق التطبيق.
+                </li>
+            </ul>
+
+            <h3>د. بيانات الإشعارات والرموز التقنية (FCM Device Tokens)</h3>
+            <ul>
+                <li><strong>رمز الجهاز (FCM Token):</strong> رمز مشفر خاص بخدمة Google Firebase Cloud Messaging يتم تسجيله عند تسجيل الدخول لإرسال إشعارات بالطلبات الجديدة والتحديثات وحالة الطلبات.</li>
+                <li><strong>نوع المنصة (Platform):</strong> نظام التشغيل (Android) لتنسيق قنوات الإشعار.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. الأطراف الثالثة ومزودو الخدمات السحابية</h2>
+            <p>يعتمد تطبيق صنايعي على مزودي بنية تحتية سحابية رائدين وموثوقين لتشغيل خوادم التطبيق وقواعد البيانات:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>الجهة ومزود الخدمة</th>
+                        <th>الدور والغرض</th>
+                        <th>البيانات المعالجة</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Supabase Inc.</strong><br>(بنية السحابة وقواعد البيانات)</td>
+                        <td>إدارة مصادقة الحسابات، قواعد بيانات PostgreSQL المشفرة، دوال الحماية (RPCs)، تخزين البيانات ومعالجة المنطق الخلفي.</td>
+                        <td>بيانات الحسابات، الطلبات، المحافظ، وسجلات النظام.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Firebase (Google LLC)</strong><br>(خدمات الرسائل السحابية FCM)</td>
+                        <td>توصيل إشعارات Push Notifications اللحظية لهاتف المستخدم عند إنشاء طلبات جديدة أو تحديث حالتها.</td>
+                        <td>رمز الجهاز المشفر (FCM Token) وعنوان الإشعار ومحتواه المشفر.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>خدمات موقع Android (Google Play Services)</strong></td>
+                        <td>تزويد التطبيق بإحداثيات الـ GPS اللحظية بدقة عند طلب العميل أو الصنايعي أثناء فتح التطبيق.</td>
+                        <td>إحداثيات خط الطول والعرض أثناء استخدام الشاشات المخصصة.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="notice-box">
+                <span class="badge badge-confirmed">مؤكد برمجياً</span>
+                <strong>عدم وجود إعلانات أو أدوات تتبع تجارية:</strong> كود التطبيق خالٍ تماماً من حزم الإعلانات (مثل Google AdMob)، أو حزم تحليلات السلوك التجاري (مثل Facebook SDK)، ولا يقوم ببيع أو تأجير أي بيانات شخصية لأي طرف ثالث.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>4. سياسة مشاركة البيانات بين العميل والصنايعي (الخصوصية المتبادلة)</h2>
+            <p>يطبق نظام صنايعي سياسة أمان صارمة تعتمد على مبدأ الخصوصية بالحد الأدنى وفقاً للمرحلة:</p>
+
+            <h3>أ. قبل شراء الطلب (مرحلة المعاينة للصنايعي):</h3>
+            <ul>
+                <li>يستطيع الصنايعي المعتمد فقط والواقع في النطاق الجغرافي المسموح (15 كم كحد أقصى) رؤية ملخص الطلب.</li>
+                <li><strong>حجب بيانات التواصل:</strong> يتم حجب اسم العميل بالكامل، ورقم هاتفه، وعنوانه التفصيلي، وإحداثيات موقعه الجغرافي بدقة على مستوى قاعدة البيانات.</li>
+                <li>يظهر للصنايعي فقط: نوع المهنة، وصف العطل (مفلتر تلقائياً لإخفاء الأرقام والاتصال)، تكلفة الفتح بالعملات، والمسافة التقريبية وعنوان تقريبي عام ثابت ("منطقة قريبة").</li>
+            </ul>
+
+            <h3>ب. بعد شراء الطلب بواسطة الصنايعي:</h3>
+            <ul>
+                <li>بمجرد استيفاء الشروط وخصم تكلفة فتح الطلب من محفظة الصنايعي، تفتح تفاصيل الاتصال المتبادلة.</li>
+                <li>يتم كشف الاسم الكامل ورقم هاتف العميل وعنوانه التفصيلي وإحداثياته للصنايعي المعين لتمكينه من تنفيذ الزيارة.</li>
+                <li>يتم في المقابل كشف اسم الصنايعي المعين ورقم هاتفه للعميل لتمكينه من التنسيق معه مباشرة.</li>
+            </ul>
+
+            <h3>ج. صلاحيات الإدارة:</h3>
+            <ul>
+                <li>يمتلك مسؤولو النظام المعتمدون (Admin) إمكانية الوصول للطلبات والحسابات والمحافظ من أجل التحقق من هوية الصنايعية، حل النزاعات والشكاوى، وضمان سلامة وجودة الخدمة ومراقبة المعاملات.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. أمان وحماية البيانات والتحكم في الوصول</h2>
+            <ul>
+                <li><strong>التشفير أثناء النقل:</strong> جميع الاتصالات والطلبات بين تطبيق الهاتف وخوادم Supabase تتم عبر بروتوكول مشفر ومؤمن (HTTPS / TLS).</li>
+                <li><strong>أمان قاعدة البيانات (Row-Level Security - RLS):</strong> تطبيق سياسات عزل صارمة داخل قاعدة البيانات تمنع أي مستخدم من قراءة أو تعديل بيانات لا تخصه.</li>
+                <li><strong>دوال حماية محصنة (SECURITY DEFINER Hardening):</strong> تنفيذ عمليات إنشاء الطلبات، وتعديل الهواتف، وفتح الطلبات عبر دوال قاعدة بيانات محصنة بمسارات بحث مغلقة لمنع ثغرات الحقن أو تزييف الصلاحيات.</li>
+                <li><strong>حماية أسرار الخادم والمفاتيح:</strong> لا يحتوي تطبيق الهاتف أو حزم الإصدار المنشورة على أي مفاتيح سرية للإدارة أو كلمات مرور لخوادم النظام.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. الاحتفاظ بالبيانات وإلغاء الحسابات وحذفها</h2>
+            
+            <h3>أ. إخفاء الطلبات الملغاة والاحتفاظ بالسجلات</h3>
+            <p>
+                وفقاً لسياسة النظام المعتمدة، عند قيام العميل أو الإدارة بإلغاء طلب خدمة، يختفي الطلب فوراً من جميع واجهات التطبيق للهواتف ولوحة الإدارة. يتم الاحتفاظ بسجل الطلب الملغى لأغراض التدقيق المحاسبي ومنع التلاعب وحل النزاعات.
+            </p>
+
+            <h3>ب. إلغاء تسجيل وتحديث رموز الأجهزة (FCM Tokens)</h3>
+            <p>
+                عند قيام المستخدم بتسجيل الخروج من حسابه، يتم فوراً حذف وإلغاء تسجيل رمز إشعارات الجهاز (FCM Token) الخاص به من قاعدة البيانات لضمان عدم وصول أي إشعار مستقبلي إلى الجهاز بعد الخروج.
+            </p>
+
+            <div class="warning-box">
+                <span class="badge badge-pending">إجراء مهم وفقاً للواقع البرمجي الحالي</span>
+                <strong>آلية حذف وإغلاق الحساب:</strong><br>
+                لا يتضمن تطبيق الهاتف في نسخته الحالية زراً آلياً داخل الشاشات لحذف الحساب ذاتياً. في حال رغبة العميل أو الصنايعي في إغلاق حسابه أو طلب حذف بياناته الشخصية من النظام، يمكنه تقديم طلب رسمي إلى فريق الدعم الفني عبر:
+                <ul>
+                    <li>التواصل المباشر مع الدعم الفني من داخل التطبيق (عبر رقم الهاتف الرسمي أو محادثة الواتساب المتاحة في شاشة الدعم).</li>
+                    <li>إرسال طلب عبر البريد الإلكتروني المخصص: <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a> مع توضيح رقم الهاتف والبريد المسجل به الحساب.</li>
+                </ul>
+                يقوم فريق الإدارة بمراجعة الطلب وتنفيذ مسح البيانات أو إلغاء تنشيط الحساب وفقاً للالتزامات القانونية والمحاسبية المعمول بها.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>7. حقوق المستخدمين</h2>
+            <p>يحق لمستخدمي تطبيق صنايعي التمتع بالحقوق التالية:</p>
+            <ul>
+                <li><strong>حق الوصول والاطلاع:</strong> معرفة البيانات الشخصية المسجلة في ملفهم الشخصي.</li>
+                <li><strong>حق التصحيح والتحديث:</strong> إمكانية تعديل وتحديث رقم الهاتف المسجل مباشرة من داخل شاشة الملف الشخصي عبر النافذة المخصصة، أو طلب تعديل الاسم بالتواصل مع الدعم.</li>
+                <li><strong>حق إيقاف الإشعارات:</strong> يمكن للمستخدم التحكم في استلام الإشعارات أو إيقافها كلياً من خلال إعدادات نظام التشغيل (Android Settings) الخاصة بتطبيق صنايعي في أي وقت.</li>
+                <li><strong>حق الاعتراض وطلب حذف البيانات:</strong> بالتواصل مع فريق الدعم والمسؤولين كما هو موضح في البند السابق.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>8. خصوصية الأطفال</h2>
+            <p>
+                تطبيق صنايعي مخصص لتقديم واستقبال خدمات الصيانة للأفراد البالغين المؤهلين قانوناً للتعاقد والعمل، ولا يوجه خدماته للأطفال دون سن 18 عاماً. نحن لا نقوم بجمع بيانات عن الأطفال عن قصد.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>9. التعديلات على سياسة الخصوصية</h2>
+            <p>
+                قد نقوم بتحديث سياسة الخصوصية هذه من حين لآخر لمواكبة التحديثات في الميزات البرمجية أو المتطلبات القانونية أو متطلبات متجر Google Play. سنقوم بتحديث تاريخ "آخر تحديث" في بداية الصفحة ونوصي المستخدمين بمراجعة الصفحة بصفة دورية.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>10. قنوات الاتصال والاستفسارات</h2>
+            <p>لأي استفسارات أو شكاوى بخصوص الخصوصية أو بياناتك الشخصية، يمكنك التواصل معنا عبر:</p>
+            <ul>
+                <li><strong>داخل التطبيق:</strong> شاشة "الشكاوى والدعم الفني" (عبر زر الاتصال الهاتفي أو رسائل الواتساب الفورية).</li>
+                <li><strong>البريد الإلكتروني المخصص للدعم:</strong> <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a></li>
+                <li><strong>موقع المطور:</strong> <a href="https://www.raizero.com/" target="_blank" rel="noopener noreferrer">https://www.raizero.com/</a></li>
+                <li><strong>اسم المطور المسؤول:</strong> Flutter Team (صاحب الحساب القانوني: احمد بدوي حسنى محمود).</li>
+                <li><strong>نطاق الخدمة الجغرافي:</strong> جمهورية مصر العربية.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- ENGLISH SECTION -->
+    <!-- ================================================================= -->
+    <section id="english" dir="ltr" style="margin-top: 50px;">
+        <div class="notice-box">
+            <strong>Last Updated:</strong> November 13, 2026<br>
+            <strong>Application Scope:</strong> Sanay3y Mobile Application (Android) & Google Play Closed Testing Release.
+        </div>
+
+        <div class="card">
+            <h2>1. Introduction & Data Controller</h2>
+            <p>
+                Welcome to the <strong>Sanay3y (صنايعي)</strong> mobile application. Our platform connects customers seeking home maintenance and repair services (such as plumbing, carpentry, electrical work, etc.) with verified, skilled local craftsmen and service technicians within an approved geographic radius.
+            </p>
+            <p>
+                <strong>Operator & Contact Details:</strong><br>
+                Public Developer Name (Google Play): <strong>Flutter Team</strong><br>
+                Legal Account Holder / Operator: <strong>Ahmed Badawy Hosny Mahmoud</strong> — Personal Developer Account<br>
+                Developer Website: <a href="https://www.raizero.com/" target="_blank" rel="noopener noreferrer">https://www.raizero.com/</a><br>
+                Dedicated Privacy & Support Email: <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a><br>
+                In-App Support Channels: Accessible via the "Complaints & Support" screen (Direct official phone calls and WhatsApp support).
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. Information We Collect</h2>
+            <p>We collect only the minimal information strictly required to operate the service securely and effectively:</p>
+
+            <h3>A. Account Registration & Authentication</h3>
+            <ul>
+                <li><strong>Full Name:</strong> To identify the user on the platform and facilitate communication between customers and workers.</li>
+                <li><strong>Mobile Phone Number:</strong> Egyptian mobile number starting with (01), used for dispatching and operational coordination after a job is purchased.</li>
+                <li><strong>Email Address & Password:</strong> Used for secure account creation and sign-in via Supabase Auth. Passwords are never stored in plain text; they are cryptographically hashed.</li>
+                <li><strong>Account Role:</strong> Customer or Worker.</li>
+            </ul>
+
+            <h3>B. Worker-Specific Profile Information</h3>
+            <ul>
+                <li><strong>Trade Category:</strong> The designated craftsmanship category (e.g., plumbing, electrical, carpentry) to filter relevant incoming job requests.</li>
+                <li><strong>Approval Status:</strong> Verification status administered by platform administrators (pending, approved, suspended).</li>
+                <li><strong>Wallet Balances & Coins:</strong> In-app virtual coin balances and ledger records used by workers to unlock full job requests.</li>
+            </ul>
+
+            <h3>C. Service Requests & Location Data</h3>
+            <ul>
+                <li><strong>Problem Description:</strong> Description of the requested repair or maintenance task.</li>
+                <li><strong>Detailed Address:</strong> Street, building, and landmark text provided by the customer.</li>
+                <li><strong>Geographic Location Coordinates (GPS):</strong> Latitude and longitude of the requested service site.</li>
+                <li>
+                    <span class="badge badge-confirmed">Code-Verified</span>
+                    <strong>Foreground-Only Location Collection:</strong> GPS coordinates are collected <strong>strictly while using the app (Foreground Only)</strong> when the customer explicitly taps "Confirm My Current Location via GPS", or when an approved worker browses nearby requests or purchases a job. The app <strong>does not request or declare background location access (ACCESS_BACKGROUND_LOCATION)</strong>.
+                </li>
+            </ul>
+
+            <h3>D. Push Notifications & Device Tokens</h3>
+            <ul>
+                <li><strong>FCM Device Token:</strong> A unique device token provided by Google Firebase Cloud Messaging, registered upon login to deliver timely operational notifications.</li>
+                <li><strong>Platform Identifier:</strong> Operating system (Android) to configure the appropriate notification channel.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>3. Third-Party Service Providers</h2>
+            <p>Sanay3y relies on industry-standard cloud infrastructure providers to securely host and deliver its services:</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Provider & Service</th>
+                        <th>Role & Purpose</th>
+                        <th>Data Processed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Supabase Inc.</strong><br>(Cloud Backend & Database)</td>
+                        <td>Account authentication, encrypted PostgreSQL database hosting, serverless edge functions, and secure RPC execution.</td>
+                        <td>User profile data, service requests, coin transactions, and device tokens.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Firebase (Google LLC)</strong><br>(Firebase Cloud Messaging)</td>
+                        <td>Real-time delivery of push notifications for new matching jobs, request status updates, and account alerts.</td>
+                        <td>Encrypted device registration token (FCM Token) and notification payloads.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Play Services</strong><br>(Location API)</td>
+                        <td>Provides precise GPS positioning on device when explicitly requested by the user during active app use.</td>
+                        <td>Instantaneous GPS latitude and longitude coordinates.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="notice-box">
+                <span class="badge badge-confirmed">Code-Verified</span>
+                <strong>No Commercial Advertising or Tracker SDKs:</strong> The Sanay3y mobile app contains no advertising networks (e.g., AdMob), no behavioral marketing trackers (e.g., Facebook SDK), and does not sell or lease user data to third parties.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>4. Information Sharing Between Customers and Workers</h2>
+            <p>We enforce strict, phase-based data segregation directly at the database level:</p>
+
+            <h3>A. Prior to Job Purchase (Worker Preview):</h3>
+            <ul>
+                <li>Only active, approved workers whose registered trade matches the request and who are located within the permitted working radius (max 15 km) can preview the job.</li>
+                <li><strong>Strict Contact Privacy:</strong> Customer name, phone number, full street address, and exact GPS coordinates are returned as NULL by database functions.</li>
+                <li>The worker sees only the trade category, masked problem description (with private numbers automatically stripped), coin cost, distance in kilometers, and a generic constant area indicator ("منطقة قريبة").</li>
+            </ul>
+
+            <h3>B. Following Job Purchase:</h3>
+            <ul>
+                <li>Once the worker unlocks the job using platform coins, full details are released.</li>
+                <li>The assigned worker receives the customer's full name, contact phone number, exact text address, and GPS coordinates to facilitate the service visit.</li>
+                <li>Reciprocally, the customer receives the assigned worker's full name, phone number, and location coordinates to verify their identity.</li>
+            </ul>
+
+            <h3>C. Administrator Access:</h3>
+            <ul>
+                <li>Authorized administrators have administrative access to user accounts, service requests, and transactions to perform safety inspections, review worker documentation, resolve disputes, and maintain platform security.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>5. Data Security & Technical Controls</h2>
+            <ul>
+                <li><strong>Encrypted Transport:</strong> All communication between the mobile app and backend services is strictly encrypted using HTTPS / TLS protocols.</li>
+                <li><strong>Row-Level Security (RLS):</strong> The database enforces granular PostgreSQL security policies to prevent unauthorized data access across users.</li>
+                <li><strong>Hardened Security Definer Functions:</strong> Critical operations (registration, phone number updates, job purchases) are performed via isolated database functions with secured search paths to prevent privilege escalation.</li>
+                <li><strong>Secret Isolation:</strong> Release bundles contain zero database administrative secrets or private signing credentials.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>6. Data Retention & Account Deletion</h2>
+
+            <h3>A. Service Request Visibility & Archival</h3>
+            <p>
+                When a service request is cancelled by either the customer or an administrator, it is immediately hidden from all mobile app views and administrative search lists. The record is preserved in the secure backend database for accounting integrity, dispute resolution, and audit trails.
+            </p>
+
+            <h3>B. Device Token Removal</h3>
+            <p>
+                When a user signs out of their account, their device's FCM token is immediately deleted from the database to stop any subsequent notifications from reaching that device.
+            </p>
+
+            <div class="warning-box">
+                <span class="badge badge-pending">Important Real-World Implementation Note</span>
+                <strong>Account Closure & Deletion Procedure:</strong><br>
+                The mobile application currently does not feature an automated in-app button for self-service account deletion. Users who wish to permanently close their accounts and request the deletion of their personal data may do so by contacting support through either of the following channels:
+                <ul>
+                    <li>In-App Support: Access the "Complaints & Support" screen to connect with an agent via official telephone or WhatsApp.</li>
+                    <li>Email Request: Send an email to <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a> detailing your registered mobile number and email.</li>
+                </ul>
+                The administration will process the verification and execute account closure and data deletion in accordance with applicable legal and financial compliance obligations.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>7. User Rights</h2>
+            <p>Users of Sanay3y retain the following rights:</p>
+            <ul>
+                <li><strong>Access:</strong> Review personal information stored in your profile.</li>
+                <li><strong>Correction:</strong> Update your mobile phone number directly within the app profile modal, or request corrections to your name via support.</li>
+                <li><strong>Notification Preferences:</strong> Manage or disable notification permissions at any time through Android device settings.</li>
+                <li><strong>Data Deletion:</strong> Request account closure and data deletion by contacting our support team as outlined above.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>8. Children's Privacy</h2>
+            <p>
+                Sanay3y is intended exclusively for individuals legally capable of entering into binding contracts (18 years of age or older). We do not knowingly solicit or collect personal information from minors.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>9. Policy Updates</h2>
+            <p>
+                We may periodically revise this Privacy Policy to reflect application updates, regulatory developments, or Google Play store policies. Any revisions will be reflected with an updated "Last Updated" date at the top of this document.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>10. Contact Us</h2>
+            <p>For questions, support requests, or data inquiries, please reach out via:</p>
+            <ul>
+                <li><strong>In-App Support:</strong> Access the "Complaints & Support" screen for direct phone and WhatsApp assistance.</li>
+                <li><strong>Dedicated Support Email:</strong> <a href="mailto:abdo.khalil0103@gmail.com">abdo.khalil0103@gmail.com</a></li>
+                <li><strong>Developer Website:</strong> <a href="https://www.raizero.com/" target="_blank" rel="noopener noreferrer">https://www.raizero.com/</a></li>
+                <li><strong>Operating Developer:</strong> Flutter Team (Legal Account Holder: Ahmed Badawy Hosny Mahmoud).</li>
+                <li><strong>Geographic Service Area:</strong> Arab Republic of Egypt.</li>
+            </ul>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Sanay3y (صنايعي). جميع الحقوق محفوظة — All Rights Reserved.</p>
+    <p>Sanay3y Mobile Application Privacy Documentation — Google Play Closed Testing Release.</p>
+</footer>
+
+</body>
+</html>
